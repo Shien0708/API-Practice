@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		643C9BE52840B6FA0014E3CF /* MusicWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643C9BE42840B6FA0014E3CF /* MusicWebViewController.swift */; };
+		647D96D8283F520E008867F0 /* TwitterRandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647D96D7283F520E008867F0 /* TwitterRandomUser.swift */; };
+		647D96DA283F5829008867F0 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647D96D9283F5829008867F0 /* UserViewController.swift */; };
+		647D96DC283F732B008867F0 /* iTunes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647D96DB283F732B008867F0 /* iTunes.swift */; };
+		647D96E1283F759B008867F0 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647D96E0283F759B008867F0 /* SongTableViewCell.swift */; };
+		647D96E3283F75AB008867F0 /* SongsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647D96E2283F75AB008867F0 /* SongsTableViewController.swift */; };
 		64E5F8B4283E4B5E00B078D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E5F8B3283E4B5E00B078D8 /* AppDelegate.swift */; };
 		64E5F8B6283E4B5E00B078D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E5F8B5283E4B5E00B078D8 /* SceneDelegate.swift */; };
-		64E5F8B8283E4B5E00B078D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E5F8B7283E4B5E00B078D8 /* ViewController.swift */; };
 		64E5F8BB283E4B5E00B078D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E5F8B9283E4B5E00B078D8 /* Main.storyboard */; };
 		64E5F8BD283E4B5E00B078D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E5F8BC283E4B5E00B078D8 /* Assets.xcassets */; };
 		64E5F8C0283E4B5E00B078D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E5F8BE283E4B5E00B078D8 /* LaunchScreen.storyboard */; };
+		64E5F8C8283E4CCC00B078D8 /* Dcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E5F8C7283E4CCC00B078D8 /* Dcard.swift */; };
+		64E5F8CA283E505B00B078D8 /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E5F8C9283E505B00B078D8 /* PostsTableViewController.swift */; };
+		64E5F8CC283E506F00B078D8 /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E5F8CB283E506F00B078D8 /* PostsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		643C9BE42840B6FA0014E3CF /* MusicWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicWebViewController.swift; sourceTree = "<group>"; };
+		647D96D7283F520E008867F0 /* TwitterRandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterRandomUser.swift; sourceTree = "<group>"; };
+		647D96D9283F5829008867F0 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		647D96DB283F732B008867F0 /* iTunes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunes.swift; sourceTree = "<group>"; };
+		647D96E0283F759B008867F0 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		647D96E2283F75AB008867F0 /* SongsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsTableViewController.swift; sourceTree = "<group>"; };
 		64E5F8B0283E4B5E00B078D8 /* API Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E5F8B3283E4B5E00B078D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64E5F8B5283E4B5E00B078D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		64E5F8B7283E4B5E00B078D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64E5F8BA283E4B5E00B078D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64E5F8BC283E4B5E00B078D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64E5F8BF283E4B5E00B078D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64E5F8C1283E4B5E00B078D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E5F8C7283E4CCC00B078D8 /* Dcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dcard.swift; sourceTree = "<group>"; };
+		64E5F8C9283E505B00B078D8 /* PostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
+		64E5F8CB283E506F00B078D8 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		647D96DD283F73DF008867F0 /* Dcard */ = {
+			isa = PBXGroup;
+			children = (
+				64E5F8C7283E4CCC00B078D8 /* Dcard.swift */,
+				64E5F8C9283E505B00B078D8 /* PostsTableViewController.swift */,
+				64E5F8CB283E506F00B078D8 /* PostsTableViewCell.swift */,
+			);
+			path = Dcard;
+			sourceTree = "<group>";
+		};
+		647D96DE283F7403008867F0 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				647D96D7283F520E008867F0 /* TwitterRandomUser.swift */,
+				647D96D9283F5829008867F0 /* UserViewController.swift */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		647D96DF283F7424008867F0 /* iMusic */ = {
+			isa = PBXGroup;
+			children = (
+				647D96E0283F759B008867F0 /* SongTableViewCell.swift */,
+				647D96E2283F75AB008867F0 /* SongsTableViewController.swift */,
+				647D96DB283F732B008867F0 /* iTunes.swift */,
+				643C9BE42840B6FA0014E3CF /* MusicWebViewController.swift */,
+			);
+			path = iMusic;
+			sourceTree = "<group>";
+		};
 		64E5F8A7283E4B5E00B078D8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +102,11 @@
 		64E5F8B2283E4B5E00B078D8 /* API Practice */ = {
 			isa = PBXGroup;
 			children = (
+				647D96DF283F7424008867F0 /* iMusic */,
+				647D96DE283F7403008867F0 /* Twitter */,
+				647D96DD283F73DF008867F0 /* Dcard */,
 				64E5F8B3283E4B5E00B078D8 /* AppDelegate.swift */,
 				64E5F8B5283E4B5E00B078D8 /* SceneDelegate.swift */,
-				64E5F8B7283E4B5E00B078D8 /* ViewController.swift */,
 				64E5F8B9283E4B5E00B078D8 /* Main.storyboard */,
 				64E5F8BC283E4B5E00B078D8 /* Assets.xcassets */,
 				64E5F8BE283E4B5E00B078D8 /* LaunchScreen.storyboard */,
@@ -138,9 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64E5F8B8283E4B5E00B078D8 /* ViewController.swift in Sources */,
+				64E5F8C8283E4CCC00B078D8 /* Dcard.swift in Sources */,
+				643C9BE52840B6FA0014E3CF /* MusicWebViewController.swift in Sources */,
+				647D96DA283F5829008867F0 /* UserViewController.swift in Sources */,
 				64E5F8B4283E4B5E00B078D8 /* AppDelegate.swift in Sources */,
+				64E5F8CC283E506F00B078D8 /* PostsTableViewCell.swift in Sources */,
+				647D96D8283F520E008867F0 /* TwitterRandomUser.swift in Sources */,
 				64E5F8B6283E4B5E00B078D8 /* SceneDelegate.swift in Sources */,
+				647D96E1283F759B008867F0 /* SongTableViewCell.swift in Sources */,
+				64E5F8CA283E505B00B078D8 /* PostsTableViewController.swift in Sources */,
+				647D96E3283F75AB008867F0 /* SongsTableViewController.swift in Sources */,
+				647D96DC283F732B008867F0 /* iTunes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
